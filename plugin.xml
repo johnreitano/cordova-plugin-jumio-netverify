@@ -65,6 +65,9 @@
         <source-file src="src/android/JumioMobileCordovaPlugin.java" target-dir="src/android/JumioMobileCordovaPlugin.java" />>
         <source-file src="src/android/res/CustomTheme.xml" target-dir="res/values"/>
 
+        <framework src="src/android/libs/support-v4" custom="true" />
+        <framework src="src/android/libs/appcompat-v7" custom="true" />
+        <framework src="src/android/libs/cardview-v7" custom="true" />
         <framework src="src/android/libs/jumio-mobile-sdk" custom="true" />
         <framework src="src/android/libs/netswipe-resources" custom="true" />
         <framework src="src/android/libs/netverify-resources" custom="true" />
