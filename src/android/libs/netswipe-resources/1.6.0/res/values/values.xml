@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/jenkins-slave/workspace/android-mobile_sdk_continuous_release/NetswipeResources/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <item name="netswipe_dialog_negative_button_text" type="color">#FF666666</item>
+    <item name="netswipe_dialog_positiv_button_text" type="color">#FF97BE0D</item>
+    <declare-styleable name="netswipe"><attr format="float" name="netswipe_dialogToScreenRatioPortrait"/><attr format="float" name="netswipe_dialogToScreenRatioLandscape"/><attr format="color" name="netswipe_positiveButtonTextColor"/><attr format="color|reference" name="netswipe_positiveButtonBackground"/><attr format="color" name="netswipe_dialogPositiveButtonTextColor"/><attr format="color" name="netswipe_dialogNegativeButtonTextColor"/></declare-styleable>
+    <!-- From: file:/home/jenkins-slave/workspace/android-mobile_sdk_continuous_release/NetswipeResources/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Theme.Netswipe" parent="Theme.Netswipe.Base">
+    </style>
+    <style name="Theme.Netswipe.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/Widget.Netswipe.ActionBar</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="netswipe_positiveButtonTextColor">@color/netswipe_button_text</item>
+        <item name="netswipe_positiveButtonBackground">@color/netswipe_positive_button_background</item>
+        <item name="netswipe_dialogPositiveButtonTextColor">@color/netswipe_dialog_positiv_button_text</item>
+        <item name="netswipe_dialogNegativeButtonTextColor">@color/netswipe_dialog_negative_button_text</item>
+
+
+        <!--<item name="colorPrimary">#ff1bdfff</item>-->
+
+        <!--&lt;!&ndash; colorPrimaryDark is used for the status bar &ndash;&gt;-->
+        <!--<item name="colorPrimaryDark">#ff0086c9</item>-->
+
+        <!--&lt;!&ndash; colorAccent is used as the default value for colorControlActivated,-->
+             <!--which is used to tint widgets &ndash;&gt;-->
+        <!--<item name="colorAccent">#ffc4a4ff</item>-->
+
+    </style>
+    <style name="Theme.Netswipe.Base.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="netswipe_positiveButtonTextColor">@color/netswipe_button_text</item>
+        <item name="netswipe_positiveButtonBackground">@color/netswipe_positive_button_background</item>
+        <item name="netswipe_dialogPositiveButtonTextColor">@color/netswipe_dialog_positiv_button_text</item>
+        <item name="netswipe_dialogNegativeButtonTextColor">@color/netswipe_dialog_negative_button_text</item>
+
+
+        <!--<item name="colorPrimary">#ff1bdfff</item>-->
+
+        <!--&lt;!&ndash; colorPrimaryDark is used for the status bar &ndash;&gt;-->
+        <!--<item name="colorPrimaryDark">#ff0086c9</item>-->
+
+        <!--&lt;!&ndash; colorAccent is used as the default value for colorControlActivated,-->
+        <!--which is used to tint widgets &ndash;&gt;-->
+        <!--<item name="colorAccent">#ffc4a4ff</item>-->
+
+    </style>
+    <style name="Theme.Netswipe.NoActionBar" parent="Theme.Netswipe.Base.NoActionBar"/>
+    <style name="Widget.Netswipe.ActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">#333333</item>
+        <item name="android:backgroundSplit">#FF484C4F</item>
+        <item name="android:titleTextStyle">@style/Widget.Netswipe.ActionBar.TitleTextStyle</item>
+    </style>
+    <style name="Widget.Netswipe.ActionBar.TitleTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#FFD4D4D4</item>
+    </style>
+</resources>

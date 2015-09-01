@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/jenkins-slave/workspace/android-mobile_sdk_continuous_release/NetverifyResources/src/main/res/values-sw600dp-v11/dimens.xml -->
+    <eat-comment/>
+    <dimen name="textLarge">22sp</dimen>
+    <dimen name="textMedium">20sp</dimen>
+    <dimen name="textSmall">16sp</dimen>
+    <dimen name="textXLarge">24sp</dimen>
+    <!-- From: file:/home/jenkins-slave/workspace/android-mobile_sdk_continuous_release/NetverifyResources/src/main/res/values-sw600dp-v11/styles.xml -->
+    <eat-comment/>
+    <style name="Theme.Netverify" parent="style/Theme.Netverify.TabletBase">
+	    <item name="netverify_dialogToScreenRatioPortrait">0.7</item>
+	    <item name="netverify_dialogToScreenRatioLandscape">0.9</item>
+	</style>
+    <style name="Theme.Netverify.TabletBase" parent="@style/Theme.Netverify.Base">
+	    <item name="android:windowIsFloating">false</item>
+	    <item name="android:windowContentOverlay">@null</item>
+	    <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+	    <item name="android:windowActionModeOverlay">true</item>
+	    <item name="android:windowIsTranslucent">true</item>
+	    <item name="android:windowActionBar">true</item>
+	</style>
+</resources>

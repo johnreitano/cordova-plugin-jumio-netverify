@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/jenkins-slave/workspace/android-mobile_sdk_continuous_release/NetswipeResources/src/main/res/values-sw720dp-v11/styles.xml -->
+    <eat-comment/>
+    <style name="Theme.Netswipe" parent="style/Theme.Netswipe.TabletBase">
+	    <item name="netswipe_dialogToScreenRatioPortrait">0.6</item>
+	    <item name="netswipe_dialogToScreenRatioLandscape">0.6</item>
+	</style>
+</resources>

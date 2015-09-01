@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/jenkins-slave/workspace/android-mobile_sdk_continuous_release/NetverifyResources/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <item name="netverify_dialog_negative_button_text" type="color">#FF666666</item>
+    <item name="netverify_dialog_positiv_button_text" type="color">#FF97BE0D</item>
+    <item name="netverify_help_button_text" type="color">#FF97BE0D</item>
+    <item name="netverify_info_bar_text" type="color">#FFFFFFFF</item>
+    <item name="netverify_submission_text" type="color">#FF666666</item>
+    <declare-styleable name="netverify"><attr format="float" name="netverify_dialogToScreenRatioPortrait"/><attr format="float" name="netverify_dialogToScreenRatioLandscape"/><attr format="color" name="netverify_positiveButtonTextColor"/><attr format="color|reference" name="netverify_positiveButtonBackground"/><attr format="color" name="netverify_negativeButtonTextColor"/><attr format="color|reference" name="netverify_negativeButtonBackground"/><attr format="color" name="netverify_fallbackButtonTextColor"/><attr format="color|reference" name="netverify_fallbackButtonBackground"/><attr format="color" name="netverify_helpButtonTextColor"/><attr format="color" name="netverify_infoBarTextColor"/><attr format="color" name="netverify_submissionTextColor"/><attr format="color" name="netverify_dialogPositiveButtonTextColor"/><attr format="color" name="netverify_dialogNegativeButtonTextColor"/></declare-styleable>
+    <!-- From: file:/home/jenkins-slave/workspace/android-mobile_sdk_continuous_release/NetverifyResources/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="textLarge">20sp</dimen>
+    <dimen name="textMedium">18sp</dimen>
+    <dimen name="textSmall">14sp</dimen>
+    <dimen name="textXLarge">22sp</dimen>
+    <!-- From: file:/home/jenkins-slave/workspace/android-mobile_sdk_continuous_release/NetverifyResources/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Theme.Netverify" parent="style/Theme.Netverify.Base"/>
+    <style name="Theme.Netverify.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">@drawable/netverify_background</item>
+        <item name="android:actionBarStyle">@style/Widget.Netverify.ActionBar</item>
+        <item name="netverify_positiveButtonTextColor">@color/netverify_button_text</item>
+        <item name="netverify_positiveButtonBackground">@color/netverify_positive_button_background</item>
+	    <item name="netverify_negativeButtonTextColor">@color/netverify_button_text</item>
+	    <item name="netverify_negativeButtonBackground">@color/netverify_negative_button_background</item>
+	    <item name="netverify_fallbackButtonTextColor">@color/netverify_button_text</item>
+	    <item name="netverify_fallbackButtonBackground">@color/netverify_fallback_button_background</item>
+        <item name="netverify_dialogPositiveButtonTextColor">@color/netverify_dialog_positiv_button_text</item>
+        <item name="netverify_dialogNegativeButtonTextColor">@color/netverify_dialog_negative_button_text</item>
+	    <item name="netverify_submissionTextColor">@color/netverify_dialog_negative_button_text</item>
+	    <item name="netverify_helpButtonTextColor">@color/netverify_help_button_text</item>
+	    <item name="netverify_infoBarTextColor">@color/netverify_info_bar_text</item>
+        <item name="colorControlNormal">@color/primary_material_light</item>
+        <item name="android:autoCompleteTextViewStyle">@style/Widget.Netverify.ActionBar.SearchViewStyle</item>
+    </style>
+    <style name="Theme.Netverify.Base.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/netverify_background</item>
+	    <item name="netverify_positiveButtonTextColor">@color/netverify_button_text</item>
+	    <item name="netverify_positiveButtonBackground">@color/netverify_positive_button_background</item>
+	    <item name="netverify_negativeButtonTextColor">@color/netverify_button_text</item>
+	    <item name="netverify_negativeButtonBackground">@color/netverify_negative_button_background</item>
+	    <item name="netverify_fallbackButtonTextColor">@color/netverify_button_text</item>
+	    <item name="netverify_fallbackButtonBackground">@color/netverify_fallback_button_background</item>
+        <item name="netverify_dialogPositiveButtonTextColor">@color/netverify_dialog_positiv_button_text</item>
+        <item name="netverify_dialogNegativeButtonTextColor">@color/netverify_dialog_negative_button_text</item>
+	    <item name="netverify_submissionTextColor">@color/netverify_dialog_negative_button_text</item>
+	    <item name="netverify_infoBarTextColor">@color/netverify_info_bar_text</item>
+    </style>
+    <style name="Theme.Netverify.NoActionBar" parent="style/Theme.Netverify.Base.NoActionBar"/>
+    <style name="Widget.Netverify.ActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">#333333</item>
+        <item name="android:backgroundSplit">#FF484C4F</item>
+        <item name="android:titleTextStyle">@style/Widget.Netverify.ActionBar.TitleTextStyle</item>
+
+    </style>
+    <style name="Widget.Netverify.ActionBar.SearchViewStyle" parent="Widget.AppCompat.AutoCompleteTextView">
+        <item name="android:textColor">#FFD4D4D4</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+    <style name="Widget.Netverify.ActionBar.TitleTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#FFD4D4D4</item>
+    </style>
+</resources>

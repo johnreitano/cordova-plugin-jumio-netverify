@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/jenkins-slave/workspace/android-mobile_sdk_continuous_release/NetverifyResources/src/main/res/values-sw720dp-v11/styles.xml -->
+    <eat-comment/>
+    <style name="Theme.Netverify" parent="style/Theme.Netverify.TabletBase">
+	    <item name="netverify_dialogToScreenRatioPortrait">0.6</item>
+	    <item name="netverify_dialogToScreenRatioLandscape">0.8</item>
+	</style>
+</resources>

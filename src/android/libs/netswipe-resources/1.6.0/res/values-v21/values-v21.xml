@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/jenkins-slave/workspace/android-mobile_sdk_continuous_release/NetswipeResources/src/main/res/values-v21/styles.xml -->
+    <eat-comment/>
+    <style name="Theme.Netswipe" parent="style/Theme.Netswipe.Base">
+        <item name="android:statusBarColor">#111111</item>
+    </style>
+</resources>
